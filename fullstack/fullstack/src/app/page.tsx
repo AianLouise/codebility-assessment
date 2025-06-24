@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { posts } from "../../data/posts.js";
+import { posts } from "./data/posts.js";
 
 export default function Home() {
   return (

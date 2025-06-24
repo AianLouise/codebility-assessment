@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { posts } from "../../../../data/posts.js";
+import { posts } from "../../data/posts.js";
 
 export default function BlogPost({ params }: { params: { id: string } }) {
     const id = parseInt(params.id);
